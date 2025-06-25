@@ -1,17 +1,11 @@
 {
-  "builds": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "cleanUrls": false,
+  "rewrites": [
     {
-      "src": "tryfolio.html",
-      "use": "@vercel/static"
+      "source": "/(.*)",
+      "destination": "/tryfolio.html"
     }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/tryfolio.html" },
-    { "src": "/(.*)", "dest": "/tryfolio.html" }
   ]
 }
-{
-  "rewrites": [{ "source": "/(.*)", "destination": "/tryfolio.html" }],
-  "cleanUrls": true
-}
-
