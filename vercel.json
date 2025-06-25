@@ -1,1 +1,13 @@
+{
+  "builds": [
+    {
+      "src": "tryfolio.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/tryfolio.html" },
+    { "src": "/(.*)", "dest": "/tryfolio.html" }
+  ]
+}
 
