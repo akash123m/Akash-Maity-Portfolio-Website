@@ -10,4 +10,8 @@
     { "src": "/(.*)", "dest": "/tryfolio.html" }
   ]
 }
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/tryfolio.html" }],
+  "cleanUrls": true
+}
 
